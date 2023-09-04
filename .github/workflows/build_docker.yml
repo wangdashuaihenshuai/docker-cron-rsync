@@ -6,7 +6,7 @@ name: release_docker
 #       - '*'
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   release_docker:
