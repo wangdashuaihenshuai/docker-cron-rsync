@@ -1,5 +1,4 @@
 #!/bin/sh
-
 if test -f /entrypoint.d/*; then
     . /entrypoint.d/*
 fi
