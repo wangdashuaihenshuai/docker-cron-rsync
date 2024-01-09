@@ -1,13 +1,10 @@
 name: release_docker
 
-# on:
-#   push:
-#     tags:
-#       - '*'
 on:
   push:
     branches: ["master"]
-
+    tags:
+      - "v*.*.*"
 jobs:
   release_docker:
     name: Release Docker
